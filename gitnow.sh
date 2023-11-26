@@ -5,7 +5,7 @@ TOKEN="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"
 REPO_NAME="FirstAWSPrac"
 
 
-git remote set-url origin https://github.com/OmayrHere/FirsAWSPrac.git
+git remote add origin https://$USERNAME:$TOKEN@github.com/OmayrHere/FirsAWSPrac.git
 git add .
 git commit -m "it is commited"
 
